@@ -13,5 +13,19 @@
     "iframeUrl": "",
     "category": "Arcade",
     "isInternal": true
+  },
+  {
+    "id": "neon-racer",
+    "title": "Neon Racer",
+    "thumbnail": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=300&fit=crop",
+    "iframeUrl": "https://unblocked-games.s3.amazonaws.com/games/2021/4/neon-racer/index.html",
+    "category": "Racing"
+  },
+  {
+    "id": "smash-karts",
+    "title": "Smash Karts",
+    "thumbnail": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=400&h=300&fit=crop",
+    "iframeUrl": "https://smash-karts.game-files.crazygames.com/smash-karts/179/index.html?skipPrerollFirstSession=true",
+    "category": "Racing"
   }
 ]
