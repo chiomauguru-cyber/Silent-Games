@@ -1,101 +1,10 @@
 [
   {
-    "id": "basket-hoop",
-    "title": "Basket Hoop",
-    "thumbnail": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=400&h=300&fit=crop",
-    "iframeUrl": "https://dnrweqffuwjtx.cloudfront.net/games/2024/construct/311/basket-hoop/index.html",
-    "category": "Sports"
-  },
-  {
     "id": "retro-snake",
     "title": "Retro Neon Snake",
     "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=300&fit=crop",
     "iframeUrl": "",
     "category": "Arcade",
     "isInternal": true
-  },
-  {
-    "id": "neon-racer",
-    "title": "Neon Racer",
-    "thumbnail": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=300&fit=crop",
-    "iframeUrl": "https://unblocked-games.s3.amazonaws.com/games/2021/4/neon-racer/index.html",
-    "category": "Racing"
-  },
-  {
-    "id": "smash-karts",
-    "title": "Smash Karts",
-    "thumbnail": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?w=400&h=300&fit=crop",
-    "iframeUrl": "https://smash-karts.game-files.crazygames.com/smash-karts/179/index.html?skipPrerollFirstSession=true",
-    "category": "Racing"
-  },
-  {
-    "id": "geometry-dash-lite",
-    "title": "Geometry Dash Lite",
-    "thumbnail": "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?w=400&h=300&fit=crop",
-    "iframeUrl": "https://games.crazygames.com/en_US/geometry-dash-online/index.html?skipPrerollFirstSession=true",
-    "category": "Arcade"
-  },
-  {
-    "id": "yohoho-io",
-    "title": "Yohoho.io",
-    "thumbnail": "https://images.unsplash.com/photo-1566633806327-68e109498ffc?w=400&h=300&fit=crop",
-    "iframeUrl": "https://games.crazygames.com/en_US/yohoho-io/index.html?isNewUser=false&v=1.352",
-    "category": "Arcade"
-  },
-  {
-    "id": "rocketgoal-io",
-    "title": "RocketGoal.io",
-    "thumbnail": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=300&fit=crop",
-    "iframeUrl": "https://games.crazygames.com/en_US/rocketgoal-io/index.html?v=1.352",
-    "category": "Sports"
-  },
-  {
-    "id": "drift-boss",
-    "title": "Drift Boss",
-    "thumbnail": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=400&h=300&fit=crop",
-    "iframeUrl": "https://games.crazygames.com/en_US/drift-boss/index.html?v=1.352",
-    "category": "Racing"
-  },
-  {
-    "id": "slice-master",
-    "title": "Slice Master",
-    "thumbnail": "https://images.unsplash.com/photo-1550989460-0adf9ea622e2?w=400&h=300&fit=crop",
-    "iframeUrl": "https://games.crazygames.com/en_US/slice-master/index.html?v=1.352",
-    "category": "Arcade"
-  },
-  {
-    "id": "doodle-road",
-    "title": "Doodle Road",
-    "thumbnail": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=400&h=300&fit=crop",
-    "iframeUrl": "https://games.crazygames.com/en_US/doodle-road/index.html?v=1.352",
-    "category": "Arcade"
-  },
-  {
-    "id": "bridge-race",
-    "title": "Bridge Race",
-    "thumbnail": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=400&h=300&fit=crop",
-    "iframeUrl": "https://games.crazygames.com/en_US/bridge-race/index.html?v=1.352",
-    "category": "Arcade"
-  },
-  {
-    "id": "basket-random",
-    "title": "Basket Random",
-    "thumbnail": "https://images.unsplash.com/photo-1519861531473-9200262188bf?w=400&h=300&fit=crop",
-    "iframeUrl": "https://games.crazygames.com/en_US/basket-random/index.html?v=1.352",
-    "category": "Sports"
-  },
-  {
-    "id": "basketball-stars",
-    "title": "Basketball Stars",
-    "thumbnail": "https://images.unsplash.com/photo-1544919982-b61976f0ba43?w=400&h=300&fit=crop",
-    "iframeUrl": "https://games.crazygames.com/en_US/basketball-stars-2019/index.html?v=1.352",
-    "category": "Sports"
-  },
-  {
-    "id": "soccer-legends-2021",
-    "title": "Soccer Legends 2021",
-    "thumbnail": "https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=400&h=300&fit=crop",
-    "iframeUrl": "https://games.crazygames.com/en_US/soccer-legends-2021/index.html?v=1.352",
-    "category": "Sports"
   }
 ]
