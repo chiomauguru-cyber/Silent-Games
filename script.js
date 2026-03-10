@@ -104,6 +104,8 @@ function openGame(game) {
         gameIframe.classList.add('hidden');
         if (game.id === 'retro-snake' && window.SnakeGame) {
             window.SnakeGame.start();
+        } else if (game.id === 'car-chase' && window.CarChaseGame) {
+            window.CarChaseGame.start();
         }
     } else {
         gameIframe.classList.remove('hidden');
@@ -123,6 +125,7 @@ function closeGame() {
     
     // Stop internal games
     if (window.SnakeGame) window.SnakeGame.stop();
+    if (window.CarChaseGame) window.CarChaseGame.stop();
 }
 
 // Event Listeners

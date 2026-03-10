@@ -1,10 +1,26 @@
 [
   {
+    "id": "car-chase",
+    "title": "Car Chase Sword Arena",
+    "thumbnail": "https://images.unsplash.com/photo-1511919884226-fd3cad34687c?w=400&h=300&fit=crop",
+    "iframeUrl": "",
+    "category": "Action",
+    "isInternal": true
+  },
+  {
     "id": "retro-snake",
-    "title": "Retro Neon Snake",
-    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=400&h=300&fit=crop",
+    "title": "Snake Adventure",
+    "thumbnail": "https://i.ibb.co/qMDYgH4L/Snake-Adventure.png",
     "iframeUrl": "",
     "category": "Arcade",
     "isInternal": true
+  },
+  {
+    "id": "yohoho-io",
+    "title": "YoHoHo.io",
+    "thumbnail": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=400&h=300&fit=crop",
+    "iframeUrl": "https://yohoho.io/",
+    "category": "Action",
+    "isInternal": false
   }
 ]
