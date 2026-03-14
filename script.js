@@ -23,6 +23,15 @@ const fullscreenButton = document.getElementById('fullscreen-button');
 const logo = document.getElementById('logo');
 const yearSpan = document.getElementById('year');
 
+const startScreen = document.getElementById('start-screen');
+const startTitle = document.getElementById('start-title');
+const startCategory = document.getElementById('start-category');
+const startThumbnail = document.getElementById('start-thumbnail');
+const startGameBtn = document.getElementById('start-game-btn');
+const loadingSpinner = document.getElementById('loading-spinner');
+
+let activeResource = null;
+
 const navResources = document.getElementById('nav-resources');
 const navDashboard = document.getElementById('nav-dashboard');
 
@@ -181,31 +190,55 @@ function switchView(view) {
 }
 
 function openResource(resource) {
+    activeResource = resource;
     browseView.classList.add('hidden');
     dashboardView.classList.add('hidden');
     viewerView.classList.remove('hidden');
     
-    if (resource.isInternal) {
-        resourceIframe.classList.add('hidden');
-    } else {
-        resourceIframe.classList.remove('hidden');
-        resourceIframe.src = resource.iframeUrl;
-    }
+    // Reset state
+    resourceIframe.src = '';
+    resourceIframe.classList.add('opacity-0');
+    startScreen.classList.remove('hidden');
+    startScreen.classList.remove('opacity-0');
+    loadingSpinner.classList.add('hidden');
 
+    // Set metadata
     resourceTitle.textContent = resource.title;
     playingTitle.textContent = resource.title;
     playingCategory.textContent = resource.category;
+    
+    startTitle.textContent = resource.title;
+    startCategory.textContent = resource.category;
+    startThumbnail.src = resource.thumbnail;
+
     window.scrollTo(0, 0);
 }
 
+startGameBtn.onclick = () => {
+    if (!activeResource) return;
+    
+    startScreen.classList.add('opacity-0');
+    setTimeout(() => startScreen.classList.add('hidden'), 500);
+    
+    loadingSpinner.classList.remove('hidden');
+    
+    resourceIframe.src = activeResource.iframeUrl;
+    resourceIframe.onload = () => {
+        loadingSpinner.classList.add('hidden');
+        resourceIframe.classList.remove('opacity-0');
+    };
+};
+
 function closeResource() {
     viewerView.classList.add('hidden');
+    activeResource = null;
     if (currentView === 'resources') {
         browseView.classList.remove('hidden');
     } else {
         dashboardView.classList.remove('hidden');
     }
     resourceIframe.src = '';
+    resourceIframe.classList.add('opacity-0');
 }
 
 // Event Listeners

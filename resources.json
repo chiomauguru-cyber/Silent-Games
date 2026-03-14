@@ -25,10 +25,58 @@
   },
   {
     "id": "monkey-mart",
-    "title": "Monkey mert.org",
-    "thumbnail": "https://images.unsplash.com/photo-1542838132-92c53300491e?w=400&h=300&fit=crop",
+    "title": "Monkey Mart",
+    "thumbnail": "https://picsum.photos/seed/monkey/400/300",
     "iframeUrl": "https://monkey-mart.gamestores.fun/",
-    "category": "Business Management",
+    "category": "Arcade",
+    "isInternal": false
+  },
+  {
+    "id": "graphics-lab",
+    "title": "Smash Karts",
+    "thumbnail": "https://picsum.photos/seed/gokart/400/300",
+    "iframeUrl": "https://webgltest-17af1.firebaseapp.com/",
+    "category": "Sports",
+    "isInternal": false
+  },
+  {
+    "id": "geometry-dash",
+    "title": "GeometryDash.org",
+    "thumbnail": "https://images.unsplash.com/photo-1614850523296-d8c1af93d400?w=400&h=300&fit=crop",
+    "iframeUrl": "https://geometrydash.io/game/geometry-dash-lite/",
+    "category": "Arcade",
+    "isInternal": false
+  },
+  {
+    "id": "shell-shockers",
+    "title": "Shell Shockers",
+    "thumbnail": "https://picsum.photos/seed/egg/400/300",
+    "iframeUrl": "https://shellshock.io/",
+    "category": "Shooting",
+    "isInternal": false
+  },
+  {
+    "id": "death-by-ai",
+    "title": "Death by AI",
+    "thumbnail": "https://picsum.photos/seed/deathai/400/300",
+    "iframeUrl": "https://deathbyai.gg/",
+    "category": "Arcade",
+    "isInternal": false
+  },
+  {
+    "id": "yohoho-io",
+    "title": "Yohoho.io",
+    "thumbnail": "https://picsum.photos/seed/yohoho/400/300",
+    "iframeUrl": "https://yohoho.io/",
+    "category": "Arcade",
+    "isInternal": false
+  },
+  {
+    "id": "retro-bowl",
+    "title": "Retro Bowl",
+    "thumbnail": "https://picsum.photos/seed/retrobowl/400/300",
+    "iframeUrl": "https://retrobowlcollege.co/retro-bowl/",
+    "category": "Sports",
     "isInternal": false
   }
 ]

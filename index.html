@@ -165,13 +165,39 @@
                     </div>
                 </div>
 
-                <div class="flex-1 bg-black rounded-2xl overflow-hidden border border-white/10 shadow-2xl relative flex items-center justify-center">
-                    <iframe id="resource-iframe" class="w-full h-full border-none" allow="autoplay; fullscreen; pointer-lock"></iframe>
+                <div class="flex-1 bg-black rounded-2xl overflow-hidden border border-white/10 shadow-2xl relative flex items-center justify-center group/viewer">
+                    <!-- Start Screen Overlay -->
+                    <div id="start-screen" class="absolute inset-0 z-10 flex flex-col items-center justify-center bg-zinc-950/90 backdrop-blur-sm transition-opacity duration-500">
+                        <div class="relative w-48 h-48 mb-6 rounded-2xl overflow-hidden border-2 border-emerald-500/30 shadow-2xl shadow-emerald-500/20">
+                            <img id="start-thumbnail" src="" alt="" class="w-full h-full object-cover" referrerpolicy="no-referrer">
+                            <div class="absolute inset-0 bg-gradient-to-t from-zinc-950 via-transparent to-transparent"></div>
+                        </div>
+                        <h3 id="start-title" class="text-3xl font-bold text-white mb-2"></h3>
+                        <p id="start-category" class="text-emerald-500 uppercase tracking-widest text-xs font-bold mb-8"></p>
+                        <button id="start-game-btn" class="px-12 py-4 bg-emerald-500 hover:bg-emerald-400 text-black font-bold rounded-full transition-all transform hover:scale-105 active:scale-95 flex items-center gap-3 shadow-xl shadow-emerald-500/20">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                            PLAY NOW
+                        </button>
+                        <p class="mt-6 text-zinc-500 text-xs italic">Native Game Player Mode Active</p>
+                    </div>
+
+                    <!-- Loading Spinner -->
+                    <div id="loading-spinner" class="absolute inset-0 z-0 flex items-center justify-center bg-zinc-950 hidden">
+                        <div class="w-12 h-12 border-4 border-emerald-500/20 border-t-emerald-500 rounded-full animate-spin"></div>
+                    </div>
+
+                    <iframe id="resource-iframe" class="w-full h-full border-none opacity-0 transition-opacity duration-700" allow="autoplay; fullscreen; pointer-lock" sandbox="allow-scripts allow-same-origin allow-forms allow-pointer-lock"></iframe>
                 </div>
                 
                 <div class="mt-4 flex items-center justify-between text-xs text-zinc-500">
-                    <p>Playing: <span id="playing-title" class="text-zinc-300"></span></p>
-                    <p>Category: <span id="playing-category" class="text-zinc-300"></span></p>
+                    <div class="flex items-center gap-4">
+                        <p>Playing: <span id="playing-title" class="text-zinc-300"></span></p>
+                        <p>Category: <span id="playing-category" class="text-zinc-300"></span></p>
+                    </div>
+                    <div class="flex items-center gap-2">
+                        <span class="w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span>
+                        <span class="text-emerald-500/80 uppercase font-bold tracking-tighter">Native Mode</span>
+                    </div>
                 </div>
             </div>
         </main>
